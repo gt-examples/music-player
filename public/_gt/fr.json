@@ -1,0 +1,266 @@
+{
+  "00c3be5041256ed2": {
+    "c": "Post-Rock",
+    "i": 1,
+    "t": "GenreChip"
+  },
+  "1a1adf5e7048e2d9": {
+    "c": "Alternatif",
+    "i": 1,
+    "t": "GenreChip"
+  },
+  "245afe844b1a03bd": {
+    "c": "Électronique",
+    "i": 1,
+    "t": "GenreChip"
+  },
+  "30f1b804d5a4b5ca": "Lecteur de musique — traduction générale",
+  "569571a2b12ca3fe": "Bibliothèque",
+  "5708e7ad29c508d7": {
+    "c": "Jazz",
+    "i": 1,
+    "t": "GenreChip"
+  },
+  "6b64834eef533e1e": {
+    "c": "Classique",
+    "i": 1,
+    "t": "GenreChip"
+  },
+  "76fea85be53bc5ad": "Genres",
+  "874e72a57592f9dd": "Lecteur de musique",
+  "8f86fc7d687bdab2": {
+    "c": [
+      {
+        "c": {
+          "c": {
+            "c": [
+              {
+                "i": 5,
+                "t": "circle"
+              },
+              {
+                "i": 6,
+                "t": "circle"
+              }
+            ],
+            "i": 4,
+            "t": "svg"
+          },
+          "i": 3,
+          "t": "div"
+        },
+        "i": 2,
+        "t": "div"
+      },
+      {
+        "c": [
+          {
+            "c": {
+              "i": 9,
+              "k": "_gt_value_9",
+              "v": "v"
+            },
+            "i": 8,
+            "t": "h3"
+          },
+          {
+            "c": {
+              "i": 11,
+              "k": "_gt_value_11",
+              "v": "v"
+            },
+            "i": 10,
+            "t": "p"
+          },
+          {
+            "c": [
+              {
+                "c": {
+                  "c": [
+                    {
+                      "i": 15,
+                      "k": "_gt_n_15",
+                      "v": "n"
+                    },
+                    " pistes"
+                  ],
+                  "d": {
+                    "b": {
+                      "many": [
+                        {
+                          "i": 15,
+                          "k": "_gt_n_15",
+                          "v": "n"
+                        },
+                        " pistes"
+                      ],
+                      "one": {
+                        "c": [
+                          {
+                            "i": 16,
+                            "k": "_gt_n_16",
+                            "v": "n"
+                          },
+                          " piste"
+                        ],
+                        "i": 15,
+                        "t": "C15"
+                      },
+                      "other": [
+                        {
+                          "i": 15,
+                          "k": "_gt_n_15",
+                          "v": "n"
+                        },
+                        " pistes"
+                      ]
+                    },
+                    "t": "p"
+                  },
+                  "i": 14,
+                  "t": "Plural"
+                },
+                "i": 13,
+                "t": "span"
+              },
+              {
+                "c": {
+                  "i": 17,
+                  "k": "_gt_date_17",
+                  "v": "d"
+                },
+                "i": 16,
+                "t": "span"
+              }
+            ],
+            "i": 12,
+            "t": "div"
+          }
+        ],
+        "i": 7,
+        "t": "div"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "aae4e7f680a97bef": "Une démo de bibliothèque musicale illustrant l’internationalisation avec gt-next. Parcourez des albums, des titres et des genres dans plusieurs langues.",
+  "c02dcea23906b18c": {
+    "c": "Indie Folk",
+    "i": 1,
+    "t": "GenreChip"
+  },
+  "c99b04a43ccefd27": {
+    "c": "Dream Pop",
+    "i": 1,
+    "t": "GenreChip"
+  },
+  "d6f71834bba17021": {
+    "c": "Blues Rock",
+    "i": 1,
+    "t": "GenreChip"
+  },
+  "d7322ea964b021f7": {
+    "c": {
+      "c": [
+        {
+          "c": [
+            {
+              "c": {
+                "c": {
+                  "i": 6,
+                  "t": "polygon"
+                },
+                "i": 5,
+                "t": "svg"
+              },
+              "i": 4,
+              "t": "div"
+            },
+            {
+              "c": [
+                {
+                  "c": {
+                    "i": 9,
+                    "k": "_gt_value_9",
+                    "v": "v"
+                  },
+                  "i": 8,
+                  "t": "p"
+                },
+                {
+                  "c": [
+                    {
+                      "i": 11,
+                      "k": "_gt_value_11",
+                      "v": "v"
+                    },
+                    " — ",
+                    {
+                      "i": 12,
+                      "k": "_gt_value_12",
+                      "v": "v"
+                    }
+                  ],
+                  "i": 10,
+                  "t": "p"
+                }
+              ],
+              "i": 7,
+              "t": "div"
+            }
+          ],
+          "i": 3,
+          "t": "div"
+        },
+        {
+          "c": [
+            {
+              "c": [
+                {
+                  "c": {
+                    "i": 16,
+                    "k": "_gt_value_16",
+                    "v": "v"
+                  },
+                  "i": 15,
+                  "t": "span"
+                },
+                {
+                  "c": {
+                    "i": 18,
+                    "t": "div"
+                  },
+                  "i": 17,
+                  "t": "div"
+                },
+                {
+                  "c": {
+                    "i": 20,
+                    "k": "_gt_value_20",
+                    "v": "v"
+                  },
+                  "i": 19,
+                  "t": "span"
+                }
+              ],
+              "i": 14,
+              "t": "div"
+            },
+            {
+              "c": "En cours de lecture",
+              "i": 21,
+              "t": "span"
+            }
+          ],
+          "i": 13,
+          "t": "div"
+        }
+      ],
+      "i": 2,
+      "t": "div"
+    },
+    "i": 1,
+    "t": "div"
+  }
+}
