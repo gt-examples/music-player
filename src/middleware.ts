@@ -1,1 +1,3 @@
-export { default } from 'gt-next/middleware';
+import { createNextMiddleware } from 'gt-next/middleware';
+
+export default createNextMiddleware();
