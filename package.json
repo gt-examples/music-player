@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "gt-next": "latest",
+    "gt-next": "^6.12.16",
     "gtx-cli": "latest",
     "next": "^15",
     "react": "^19",
@@ -21,6 +21,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "gtx-cli": "^2"
   }
 }
