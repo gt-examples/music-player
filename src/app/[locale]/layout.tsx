@@ -1,8 +1,15 @@
 import type { Metadata } from "next";
+import { Geist } from "next/font/google";
 import { GTProvider } from "gt-next";
 import { getGT } from "gt-next/server";
-import { getLocale } from "gt-next/server";
+import Header from "@/components/Header";
+import NowPlaying from "@/components/NowPlaying";
 import "../globals.css";
+
+const geistSans = Geist({
+  variable: "--font-geist-sans",
+  subsets: ["latin"],
+});
 
 const locales = ["en", "es", "fr", "ja", "zh"];
 const baseUrl = "https://music-player.generaltranslation.dev";
@@ -15,9 +22,9 @@ export async function generateMetadata({
   const { locale } = await params;
   const gt = await getGT();
 
-  const title = gt("Music Player — General Translation");
+  const title = gt("Music Player | General Translation");
   const description = gt(
-    "A music library demo showcasing internationalization with gt-next. Browse albums, tracks, and genres in multiple languages."
+    "A music library demo showcasing internationalization with gt-next. Browse albums, artists, and playlists in multiple languages."
   );
 
   return {
@@ -32,13 +39,13 @@ export async function generateMetadata({
       locale,
     },
     twitter: {
-      card: "summary_large_image",
+      card: "summary",
       title,
       description,
     },
     alternates: {
       canonical: baseUrl,
-      languages: Object.fromEntries(locales.map((l) => [l, `${baseUrl}/${l}`])),
+      languages: Object.fromEntries(locales.map((l) => [l, `/${l}`])),
     },
   };
 }
@@ -53,8 +60,14 @@ export default async function RootLayout({
   const { locale } = await params;
   return (
     <html lang={locale}>
-      <body className="bg-neutral-950 text-neutral-100 min-h-screen antialiased">
-        <GTProvider>{children}</GTProvider>
+      <body
+        className={`${geistSans.variable} font-[family-name:var(--font-geist-sans)] bg-neutral-950 text-neutral-100 min-h-screen antialiased`}
+      >
+        <GTProvider>
+          <Header />
+          <div className="pb-20">{children}</div>
+          <NowPlaying />
+        </GTProvider>
       </body>
     </html>
   );

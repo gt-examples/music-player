@@ -4,92 +4,792 @@
     "i": 1,
     "t": "GenreChip"
   },
+  "076df23139f0ceb7": [
+    {
+      "c": "Playlists",
+      "i": 1,
+      "t": "h1"
+    },
+    {
+      "c": "Des collections soigneusement sélectionnées pour chaque humeur et chaque moment.",
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "0bc6dd45900a7334": "Lecture en cours",
+  "0f442932c6435aad": {
+    "c": {
+      "i": 2,
+      "k": "_gt_value_2",
+      "v": "v"
+    },
+    "i": 1,
+    "t": "span"
+  },
+  "11dbca6f87bd9537": "Une démo de bibliothèque musicale illustrant l’internationalisation avec gt-next. Parcourez des albums, des artistes et des playlists dans plusieurs langues.",
+  "194e1f74157c57af": {
+    "c": [
+      {
+        "c": {
+          "i": 3,
+          "k": "_gt_value_3",
+          "v": "v"
+        },
+        "i": 2,
+        "t": "span"
+      },
+      {
+        "c": {
+          "i": 5,
+          "k": "_gt_value_5",
+          "v": "v"
+        },
+        "i": 4,
+        "t": "span"
+      },
+      {
+        "c": {
+          "i": 7,
+          "k": "_gt_value_7",
+          "v": "v"
+        },
+        "i": 6,
+        "t": "span"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
   "1a1adf5e7048e2d9": {
     "c": "Alternatif",
     "i": 1,
     "t": "GenreChip"
   },
+  "1dfd94f8e485c8a0": "Retour aux artistes",
+  "210965807656d892": [
+    {
+      "c": {
+        "i": 2,
+        "k": "_gt_value_2",
+        "v": "v"
+      },
+      "i": 1,
+      "t": "h1"
+    },
+    {
+      "c": {
+        "i": 4,
+        "k": "_gt_value_4",
+        "v": "v"
+      },
+      "i": 3,
+      "t": "p"
+    },
+    {
+      "c": {
+        "c": [
+          {
+            "i": 7,
+            "k": "_gt_n_7",
+            "v": "n"
+          },
+          " pistes"
+        ],
+        "d": {
+          "b": {
+            "many": [
+              {
+                "i": 7,
+                "k": "_gt_n_7",
+                "v": "n"
+              },
+              " pistes"
+            ],
+            "one": {
+              "c": [
+                {
+                  "i": 8,
+                  "k": "_gt_n_8",
+                  "v": "n"
+                },
+                " piste"
+              ],
+              "i": 7,
+              "t": "C7"
+            },
+            "other": [
+              {
+                "i": 7,
+                "k": "_gt_n_7",
+                "v": "n"
+              },
+              " pistes"
+            ]
+          },
+          "t": "p"
+        },
+        "i": 6,
+        "t": "Plural"
+      },
+      "i": 5,
+      "t": "span"
+    }
+  ],
+  "22550b8d98fdc319": "Playlists",
   "245afe844b1a03bd": {
     "c": "Électronique",
     "i": 1,
     "t": "GenreChip"
   },
-  "30f1b804d5a4b5ca": "Lecteur de musique — traduction générale",
+  "262b6fc7fc66c7de": "Tout afficher",
+  "2662a38885794cc3": {
+    "c": "Album",
+    "i": 1,
+    "t": "p"
+  },
+  "325c8e011bca19ef": [
+    {
+      "c": {
+        "i": 2,
+        "k": "_gt_value_2",
+        "v": "v"
+      },
+      "i": 1,
+      "t": "p"
+    },
+    {
+      "c": [
+        {
+          "c": [
+            {
+              "i": 5,
+              "k": "_gt_value_5",
+              "v": "v"
+            },
+            " auditeurs"
+          ],
+          "i": 4,
+          "t": "span"
+        },
+        {
+          "c": "·",
+          "i": 6,
+          "t": "span"
+        },
+        {
+          "c": {
+            "c": [
+              {
+                "i": 9,
+                "k": "_gt_n_9",
+                "v": "n"
+              },
+              " albums"
+            ],
+            "d": {
+              "b": {
+                "many": [
+                  {
+                    "i": 9,
+                    "k": "_gt_n_9",
+                    "v": "n"
+                  },
+                  " albums"
+                ],
+                "one": {
+                  "c": [
+                    {
+                      "i": 10,
+                      "k": "_gt_n_10",
+                      "v": "n"
+                    },
+                    " album"
+                  ],
+                  "i": 9,
+                  "t": "C9"
+                },
+                "other": [
+                  {
+                    "i": 9,
+                    "k": "_gt_n_9",
+                    "v": "n"
+                  },
+                  " albums"
+                ]
+              },
+              "t": "p"
+            },
+            "i": 8,
+            "t": "Plural"
+          },
+          "i": 7,
+          "t": "span"
+        }
+      ],
+      "i": 3,
+      "t": "div"
+    }
+  ],
+  "33946a974cf75801": "Retour à la navigation",
+  "35ca033c539a3f00": {
+    "c": {
+      "c": [
+        {
+          "c": {
+            "i": 4,
+            "t": "img"
+          },
+          "i": 3,
+          "t": "div"
+        },
+        {
+          "c": [
+            {
+              "c": {
+                "i": 7,
+                "k": "_gt_value_7",
+                "v": "v"
+              },
+              "i": 6,
+              "t": "h3"
+            },
+            {
+              "c": {
+                "i": 9,
+                "k": "_gt_value_9",
+                "v": "v"
+              },
+              "i": 8,
+              "t": "p"
+            },
+            {
+              "c": [
+                {
+                  "c": {
+                    "c": [
+                      {
+                        "i": 13,
+                        "k": "_gt_n_13",
+                        "v": "n"
+                      },
+                      " pistes"
+                    ],
+                    "d": {
+                      "b": {
+                        "many": [
+                          {
+                            "i": 13,
+                            "k": "_gt_n_13",
+                            "v": "n"
+                          },
+                          " pistes"
+                        ],
+                        "one": {
+                          "c": [
+                            {
+                              "i": 14,
+                              "k": "_gt_n_14",
+                              "v": "n"
+                            },
+                            " piste"
+                          ],
+                          "i": 13,
+                          "t": "C13"
+                        },
+                        "other": [
+                          {
+                            "i": 13,
+                            "k": "_gt_n_13",
+                            "v": "n"
+                          },
+                          " pistes"
+                        ]
+                      },
+                      "t": "p"
+                    },
+                    "i": 12,
+                    "t": "Plural"
+                  },
+                  "i": 11,
+                  "t": "span"
+                },
+                {
+                  "c": {
+                    "i": 15,
+                    "k": "_gt_date_15",
+                    "v": "d"
+                  },
+                  "i": 14,
+                  "t": "span"
+                }
+              ],
+              "i": 10,
+              "t": "div"
+            }
+          ],
+          "i": 5,
+          "t": "div"
+        }
+      ],
+      "i": 2,
+      "t": "div"
+    },
+    "i": 1,
+    "t": "Link"
+  },
+  "43ee834b3167ceb8": [
+    {
+      "c": "Artistes",
+      "i": 1,
+      "t": "h1"
+    },
+    {
+      "c": "Découvrez les artistes derrière la musique de votre bibliothèque.",
+      "i": 2,
+      "t": "p"
+    }
+  ],
+  "4a4d29430a1328c0": "Artistes",
+  "515def12cf2b5677": {
+    "c": [
+      {
+        "c": {
+          "i": 3,
+          "k": "_gt_value_3",
+          "v": "v"
+        },
+        "i": 2,
+        "t": "span"
+      },
+      {
+        "c": {
+          "i": 5,
+          "k": "_gt_value_5",
+          "v": "v"
+        },
+        "i": 4,
+        "t": "span"
+      },
+      {
+        "c": {
+          "i": 7,
+          "k": "_gt_value_7",
+          "v": "v"
+        },
+        "i": 6,
+        "t": "span"
+      },
+      {
+        "c": {
+          "i": 9,
+          "k": "_gt_value_9",
+          "v": "v"
+        },
+        "i": 8,
+        "t": "span"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
   "569571a2b12ca3fe": "Bibliothèque",
+  "56f1e9695143318b": "Retour aux playlists",
   "5708e7ad29c508d7": {
     "c": "Jazz",
     "i": 1,
     "t": "GenreChip"
   },
+  "5fa04c7891baa39c": "Artiste",
   "6b64834eef533e1e": {
     "c": "Classique",
     "i": 1,
     "t": "GenreChip"
   },
+  "6cc3a43639370dff": "Explorer",
+  "6f0e82225465c593": {
+    "c": "Artiste",
+    "i": 1,
+    "t": "p"
+  },
+  "7676f1c9886c6aad": [
+    {
+      "c": "Parcourir",
+      "i": 1,
+      "t": "h1"
+    },
+    {
+      "c": "Explorez le catalogue complet d'albums dans tous les genres.",
+      "i": 2,
+      "t": "p"
+    }
+  ],
   "76fea85be53bc5ad": "Genres",
+  "7982b3041b9ae1d0": "Durée",
+  "7ddfa9c080803f0d": [
+    {
+      "c": "Votre musique, dans toutes les langues",
+      "i": 1,
+      "t": "h1"
+    },
+    {
+      "c": "Parcourez votre bibliothèque, découvrez de nouveaux artistes et explorez des playlists — le tout entièrement traduit avec General Translation.",
+      "i": 2,
+      "t": "p"
+    }
+  ],
   "874e72a57592f9dd": "Lecteur de musique",
-  "8f86fc7d687bdab2": {
+  "8862477d0308f16b": "Discographie",
+  "9cf3e97f0195d620": {
     "c": [
       {
         "c": {
-          "c": {
-            "c": [
-              {
-                "i": 5,
-                "t": "circle"
+          "i": 3,
+          "k": "_gt_value_3",
+          "v": "v"
+        },
+        "i": 2,
+        "t": "span"
+      },
+      {
+        "c": "·",
+        "i": 4,
+        "t": "span"
+      },
+      {
+        "c": {
+          "i": 6,
+          "k": "_gt_date_6",
+          "v": "d"
+        },
+        "i": 5,
+        "t": "span"
+      },
+      {
+        "c": "·",
+        "i": 7,
+        "t": "span"
+      },
+      {
+        "c": {
+          "c": [
+            {
+              "i": 10,
+              "k": "_gt_n_10",
+              "v": "n"
+            },
+            " pistes"
+          ],
+          "d": {
+            "b": {
+              "many": [
+                {
+                  "i": 10,
+                  "k": "_gt_n_10",
+                  "v": "n"
+                },
+                " pistes"
+              ],
+              "one": {
+                "c": [
+                  {
+                    "i": 11,
+                    "k": "_gt_n_11",
+                    "v": "n"
+                  },
+                  " piste"
+                ],
+                "i": 10,
+                "t": "C10"
               },
-              {
-                "i": 6,
-                "t": "circle"
-              }
-            ],
+              "other": [
+                {
+                  "i": 10,
+                  "k": "_gt_n_10",
+                  "v": "n"
+                },
+                " pistes"
+              ]
+            },
+            "t": "p"
+          },
+          "i": 9,
+          "t": "Plural"
+        },
+        "i": 8,
+        "t": "span"
+      },
+      {
+        "c": "·",
+        "i": 11,
+        "t": "span"
+      },
+      {
+        "c": {
+          "c": [
+            {
+              "i": 14,
+              "k": "_gt_n_14",
+              "v": "n"
+            },
+            " minutes"
+          ],
+          "d": {
+            "b": {
+              "many": [
+                {
+                  "i": 14,
+                  "k": "_gt_n_14",
+                  "v": "n"
+                },
+                " minutes"
+              ],
+              "one": {
+                "c": [
+                  {
+                    "i": 15,
+                    "k": "_gt_n_15",
+                    "v": "n"
+                  },
+                  " minute"
+                ],
+                "i": 14,
+                "t": "C14"
+              },
+              "other": [
+                {
+                  "i": 14,
+                  "k": "_gt_n_14",
+                  "v": "n"
+                },
+                " minutes"
+              ]
+            },
+            "t": "p"
+          },
+          "i": 13,
+          "t": "Plural"
+        },
+        "i": 12,
+        "t": "span"
+      }
+    ],
+    "i": 1,
+    "t": "div"
+  },
+  "c02dcea23906b18c": {
+    "c": "Indie Folk",
+    "i": 1,
+    "t": "GenreChip"
+  },
+  "c3ea24ac809a5ed5": "Titre",
+  "c99b04a43ccefd27": {
+    "c": "Dream Pop",
+    "i": 1,
+    "t": "GenreChip"
+  },
+  "cc21632fab2ecb66": {
+    "c": {
+      "c": [
+        {
+          "c": [
+            {
+              "i": 4,
+              "t": "img"
+            },
+            {
+              "i": 5,
+              "t": "div"
+            },
+            {
+              "c": [
+                {
+                  "c": {
+                    "i": 8,
+                    "k": "_gt_value_8",
+                    "v": "v"
+                  },
+                  "i": 7,
+                  "t": "h3"
+                },
+                {
+                  "c": {
+                    "c": [
+                      {
+                        "i": 11,
+                        "k": "_gt_n_11",
+                        "v": "n"
+                      },
+                      " pistes"
+                    ],
+                    "d": {
+                      "b": {
+                        "many": [
+                          {
+                            "i": 11,
+                            "k": "_gt_n_11",
+                            "v": "n"
+                          },
+                          " pistes"
+                        ],
+                        "one": {
+                          "c": [
+                            {
+                              "i": 12,
+                              "k": "_gt_n_12",
+                              "v": "n"
+                            },
+                            " piste"
+                          ],
+                          "i": 11,
+                          "t": "C11"
+                        },
+                        "other": [
+                          {
+                            "i": 11,
+                            "k": "_gt_n_11",
+                            "v": "n"
+                          },
+                          " pistes"
+                        ]
+                      },
+                      "t": "p"
+                    },
+                    "i": 10,
+                    "t": "Plural"
+                  },
+                  "i": 9,
+                  "t": "span"
+                }
+              ],
+              "i": 6,
+              "t": "div"
+            }
+          ],
+          "i": 3,
+          "t": "div"
+        },
+        {
+          "c": {
+            "c": {
+              "i": 14,
+              "k": "_gt_value_14",
+              "v": "v"
+            },
+            "i": 13,
+            "t": "p"
+          },
+          "i": 12,
+          "t": "div"
+        }
+      ],
+      "i": 2,
+      "t": "div"
+    },
+    "i": 1,
+    "t": "Link"
+  },
+  "d07a8c4ab0bb8da5": [
+    {
+      "c": [
+        {
+          "i": 2,
+          "t": "img"
+        },
+        {
+          "c": [
+            {
+              "c": {
+                "i": 5,
+                "k": "_gt_value_5",
+                "v": "v"
+              },
+              "i": 4,
+              "t": "h3"
+            },
+            {
+              "c": [
+                {
+                  "i": 7,
+                  "k": "_gt_value_7",
+                  "v": "v"
+                },
+                " auditeurs"
+              ],
+              "i": 6,
+              "t": "p"
+            }
+          ],
+          "i": 3,
+          "t": "div"
+        }
+      ],
+      "i": 1,
+      "t": "div"
+    },
+    {
+      "c": {
+        "i": 9,
+        "k": "_gt_value_9",
+        "v": "v"
+      },
+      "i": 8,
+      "t": "p"
+    }
+  ],
+  "d6f71834bba17021": {
+    "c": "Blues Rock",
+    "i": 1,
+    "t": "GenreChip"
+  },
+  "db19276de9f1185e": {
+    "c": {
+      "c": [
+        {
+          "c": {
             "i": 4,
-            "t": "svg"
+            "t": "img"
           },
           "i": 3,
           "t": "div"
         },
-        "i": 2,
-        "t": "div"
-      },
-      {
-        "c": [
-          {
-            "c": {
-              "i": 9,
-              "k": "_gt_value_9",
-              "v": "v"
+        {
+          "c": [
+            {
+              "c": {
+                "i": 7,
+                "k": "_gt_value_7",
+                "v": "v"
+              },
+              "i": 6,
+              "t": "h3"
             },
-            "i": 8,
-            "t": "h3"
-          },
-          {
-            "c": {
-              "i": 11,
-              "k": "_gt_value_11",
-              "v": "v"
-            },
-            "i": 10,
-            "t": "p"
-          },
-          {
-            "c": [
-              {
-                "c": {
+            {
+              "c": [
+                {
+                  "i": 9,
+                  "k": "_gt_date_9",
+                  "v": "d"
+                },
+                {
+                  "c": "·",
+                  "i": 10,
+                  "t": "span"
+                },
+                {
                   "c": [
                     {
-                      "i": 15,
-                      "k": "_gt_n_15",
+                      "i": 12,
+                      "k": "_gt_n_12",
                       "v": "n"
                     },
-                    " pistes"
+                    " titres"
                   ],
                   "d": {
                     "b": {
                       "many": [
                         {
-                          "i": 15,
-                          "k": "_gt_n_15",
+                          "i": 12,
+                          "k": "_gt_n_12",
                           "v": "n"
                         },
                         " pistes"
@@ -97,19 +797,19 @@
                       "one": {
                         "c": [
                           {
-                            "i": 16,
-                            "k": "_gt_n_16",
+                            "i": 13,
+                            "k": "_gt_n_13",
                             "v": "n"
                           },
                           " piste"
                         ],
-                        "i": 15,
-                        "t": "C15"
+                        "i": 12,
+                        "t": "C12"
                       },
                       "other": [
                         {
-                          "i": 15,
-                          "k": "_gt_n_15",
+                          "i": 12,
+                          "k": "_gt_n_12",
                           "v": "n"
                         },
                         " pistes"
@@ -117,96 +817,63 @@
                     },
                     "t": "p"
                   },
-                  "i": 14,
+                  "i": 11,
                   "t": "Plural"
-                },
-                "i": 13,
-                "t": "span"
-              },
-              {
-                "c": {
-                  "i": 17,
-                  "k": "_gt_date_17",
-                  "v": "d"
-                },
-                "i": 16,
-                "t": "span"
-              }
-            ],
-            "i": 12,
-            "t": "div"
-          }
-        ],
-        "i": 7,
-        "t": "div"
-      }
-    ],
+                }
+              ],
+              "i": 8,
+              "t": "div"
+            }
+          ],
+          "i": 5,
+          "t": "div"
+        }
+      ],
+      "i": 2,
+      "t": "div"
+    },
     "i": 1,
-    "t": "div"
+    "t": "Link"
   },
-  "aae4e7f680a97bef": "Une démo de bibliothèque musicale illustrant l’internationalisation avec gt-next. Parcourez des albums, des titres et des genres dans plusieurs langues.",
-  "c02dcea23906b18c": {
-    "c": "Indie Folk",
-    "i": 1,
-    "t": "GenreChip"
-  },
-  "c99b04a43ccefd27": {
-    "c": "Dream Pop",
-    "i": 1,
-    "t": "GenreChip"
-  },
-  "d6f71834bba17021": {
-    "c": "Blues Rock",
-    "i": 1,
-    "t": "GenreChip"
-  },
-  "d7322ea964b021f7": {
+  "e0f5d5d849b9fb1b": {
     "c": {
       "c": [
         {
           "c": [
             {
-              "c": {
-                "c": {
-                  "i": 6,
-                  "t": "polygon"
-                },
-                "i": 5,
-                "t": "svg"
-              },
               "i": 4,
-              "t": "div"
+              "t": "img"
             },
             {
               "c": [
                 {
                   "c": {
-                    "i": 9,
-                    "k": "_gt_value_9",
+                    "i": 7,
+                    "k": "_gt_value_7",
                     "v": "v"
                   },
-                  "i": 8,
+                  "i": 6,
                   "t": "p"
                 },
                 {
                   "c": [
                     {
-                      "i": 11,
-                      "k": "_gt_value_11",
+                      "i": 9,
+                      "k": "_gt_value_9",
                       "v": "v"
                     },
                     " — ",
                     {
-                      "i": 12,
-                      "k": "_gt_value_12",
+                      "i": 10,
+                      "k": "_gt_value_10",
                       "v": "v"
                     }
                   ],
-                  "i": 10,
+                  "i": 8,
                   "t": "p"
                 }
               ],
-              "i": 7,
+              "i": 5,
               "t": "div"
             }
           ],
@@ -219,41 +886,45 @@
               "c": [
                 {
                   "c": {
-                    "i": 16,
-                    "k": "_gt_value_16",
+                    "i": 14,
+                    "k": "_gt_value_14",
                     "v": "v"
                   },
-                  "i": 15,
+                  "i": 13,
                   "t": "span"
                 },
                 {
                   "c": {
-                    "i": 18,
+                    "i": 16,
                     "t": "div"
                   },
-                  "i": 17,
+                  "i": 15,
                   "t": "div"
                 },
                 {
                   "c": {
-                    "i": 20,
-                    "k": "_gt_value_20",
+                    "i": 18,
+                    "k": "_gt_value_18",
                     "v": "v"
                   },
-                  "i": 19,
+                  "i": 17,
                   "t": "span"
                 }
               ],
-              "i": 14,
+              "i": 12,
               "t": "div"
             },
             {
-              "c": "En cours de lecture",
-              "i": 21,
+              "c": {
+                "i": 20,
+                "k": "_gt_value_20",
+                "v": "v"
+              },
+              "i": 19,
               "t": "span"
             }
           ],
-          "i": 13,
+          "i": 11,
           "t": "div"
         }
       ],
@@ -262,5 +933,98 @@
     },
     "i": 1,
     "t": "div"
-  }
+  },
+  "e507c539aaaba76b": {
+    "c": "Playlist",
+    "i": 1,
+    "t": "p"
+  },
+  "e6b222526114909a": {
+    "c": {
+      "c": [
+        {
+          "i": 3,
+          "t": "img"
+        },
+        {
+          "c": [
+            {
+              "c": {
+                "i": 6,
+                "k": "_gt_value_6",
+                "v": "v"
+              },
+              "i": 5,
+              "t": "h3"
+            },
+            {
+              "c": {
+                "i": 8,
+                "k": "_gt_value_8",
+                "v": "v"
+              },
+              "i": 7,
+              "t": "p"
+            },
+            {
+              "c": {
+                "c": [
+                  {
+                    "i": 11,
+                    "k": "_gt_n_11",
+                    "v": "n"
+                  },
+                  " pistes"
+                ],
+                "d": {
+                  "b": {
+                    "many": [
+                      {
+                        "i": 11,
+                        "k": "_gt_n_11",
+                        "v": "n"
+                      },
+                      " pistes"
+                    ],
+                    "one": {
+                      "c": [
+                        {
+                          "i": 12,
+                          "k": "_gt_n_12",
+                          "v": "n"
+                        },
+                        " piste"
+                      ],
+                      "i": 11,
+                      "t": "C11"
+                    },
+                    "other": [
+                      {
+                        "i": 11,
+                        "k": "_gt_n_11",
+                        "v": "n"
+                      },
+                      " pistes"
+                    ]
+                  },
+                  "t": "p"
+                },
+                "i": 10,
+                "t": "Plural"
+              },
+              "i": 9,
+              "t": "span"
+            }
+          ],
+          "i": 4,
+          "t": "div"
+        }
+      ],
+      "i": 2,
+      "t": "div"
+    },
+    "i": 1,
+    "t": "Link"
+  },
+  "ffacf804f511e075": "Lecteur de musique | Traduction générale"
 }
