@@ -12,6 +12,7 @@ export type Album = {
 export type Track = {
   title: string;
   duration: number; // seconds
+  audioUrl: string;
 };
 
 export type Artist = {
@@ -23,6 +24,16 @@ export type Artist = {
   listeners: number;
 };
 
+// Cycle through SoundHelix songs (1-16)
+function soundHelixUrl(n: number): string {
+  return `https://www.soundhelix.com/examples/mp3/SoundHelix-Song-${((n - 1) % 16) + 1}.mp3`;
+}
+
+let trackCounter = 1;
+function sh(): string {
+  return soundHelixUrl(trackCounter++);
+}
+
 export const albums: Album[] = [
   {
     id: "midnight-frequencies",
@@ -33,18 +44,18 @@ export const albums: Album[] = [
     color: "bg-violet-500",
     cover: "https://images.unsplash.com/photo-1614149162883-504ce4d13909?w=400&h=400&fit=crop",
     tracks: [
-      { title: "Dissolve", duration: 264 },
-      { title: "Neon Rain", duration: 218 },
-      { title: "Phase Shift", duration: 303 },
-      { title: "Midnight Drive", duration: 245 },
-      { title: "Frequency", duration: 192 },
-      { title: "Echo Chamber", duration: 278 },
-      { title: "Wavelength", duration: 231 },
-      { title: "Digital Haze", duration: 199 },
-      { title: "Pulse Width", duration: 312 },
-      { title: "Static", duration: 257 },
-      { title: "Afterglow", duration: 284 },
-      { title: "Blackout", duration: 341 },
+      { title: "Dissolve", duration: 264, audioUrl: sh() },
+      { title: "Neon Rain", duration: 218, audioUrl: sh() },
+      { title: "Phase Shift", duration: 303, audioUrl: sh() },
+      { title: "Midnight Drive", duration: 245, audioUrl: sh() },
+      { title: "Frequency", duration: 192, audioUrl: sh() },
+      { title: "Echo Chamber", duration: 278, audioUrl: sh() },
+      { title: "Wavelength", duration: 231, audioUrl: sh() },
+      { title: "Digital Haze", duration: 199, audioUrl: sh() },
+      { title: "Pulse Width", duration: 312, audioUrl: sh() },
+      { title: "Static", duration: 257, audioUrl: sh() },
+      { title: "Afterglow", duration: 284, audioUrl: sh() },
+      { title: "Blackout", duration: 341, audioUrl: sh() },
     ],
   },
   {
@@ -56,16 +67,16 @@ export const albums: Album[] = [
     color: "bg-amber-500",
     cover: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=400&h=400&fit=crop",
     tracks: [
-      { title: "Amber Light", duration: 234 },
-      { title: "Wanderer", duration: 198 },
-      { title: "Dusty Trail", duration: 267 },
-      { title: "Homebound", duration: 223 },
-      { title: "Campfire Stories", duration: 289 },
-      { title: "Old Highway", duration: 245 },
-      { title: "River Crossing", duration: 211 },
-      { title: "Golden Hour", duration: 256 },
-      { title: "Driftwood", duration: 278 },
-      { title: "Last Light", duration: 312 },
+      { title: "Amber Light", duration: 234, audioUrl: sh() },
+      { title: "Wanderer", duration: 198, audioUrl: sh() },
+      { title: "Dusty Trail", duration: 267, audioUrl: sh() },
+      { title: "Homebound", duration: 223, audioUrl: sh() },
+      { title: "Campfire Stories", duration: 289, audioUrl: sh() },
+      { title: "Old Highway", duration: 245, audioUrl: sh() },
+      { title: "River Crossing", duration: 211, audioUrl: sh() },
+      { title: "Golden Hour", duration: 256, audioUrl: sh() },
+      { title: "Driftwood", duration: 278, audioUrl: sh() },
+      { title: "Last Light", duration: 312, audioUrl: sh() },
     ],
   },
   {
@@ -77,14 +88,14 @@ export const albums: Album[] = [
     color: "bg-emerald-500",
     cover: "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=400&h=400&fit=crop",
     tracks: [
-      { title: "Bloom", duration: 198 },
-      { title: "Overgrown", duration: 234 },
-      { title: "Concrete Flowers", duration: 267 },
-      { title: "Roots", duration: 189 },
-      { title: "Greenhouse", duration: 256 },
-      { title: "Wild Growth", duration: 223 },
-      { title: "Canopy", duration: 278 },
-      { title: "Moss", duration: 201 },
+      { title: "Bloom", duration: 198, audioUrl: sh() },
+      { title: "Overgrown", duration: 234, audioUrl: sh() },
+      { title: "Concrete Flowers", duration: 267, audioUrl: sh() },
+      { title: "Roots", duration: 189, audioUrl: sh() },
+      { title: "Greenhouse", duration: 256, audioUrl: sh() },
+      { title: "Wild Growth", duration: 223, audioUrl: sh() },
+      { title: "Canopy", duration: 278, audioUrl: sh() },
+      { title: "Moss", duration: 201, audioUrl: sh() },
     ],
   },
   {
@@ -96,20 +107,20 @@ export const albums: Album[] = [
     color: "bg-rose-500",
     cover: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=400&h=400&fit=crop",
     tracks: [
-      { title: "Dead Air", duration: 345 },
-      { title: "White Noise", duration: 267 },
-      { title: "Transmission", duration: 298 },
-      { title: "Lost Signal", duration: 312 },
-      { title: "Interference", duration: 234 },
-      { title: "Reconnect", duration: 278 },
-      { title: "Broadcast", duration: 256 },
-      { title: "Shortwave", duration: 289 },
-      { title: "Frequency Drift", duration: 323 },
-      { title: "Signal Found", duration: 267 },
-      { title: "Clear Channel", duration: 234 },
-      { title: "Sign Off", duration: 198 },
-      { title: "Static Bloom", duration: 312 },
-      { title: "Resonance", duration: 345 },
+      { title: "Dead Air", duration: 345, audioUrl: sh() },
+      { title: "White Noise", duration: 267, audioUrl: sh() },
+      { title: "Transmission", duration: 298, audioUrl: sh() },
+      { title: "Lost Signal", duration: 312, audioUrl: sh() },
+      { title: "Interference", duration: 234, audioUrl: sh() },
+      { title: "Reconnect", duration: 278, audioUrl: sh() },
+      { title: "Broadcast", duration: 256, audioUrl: sh() },
+      { title: "Shortwave", duration: 289, audioUrl: sh() },
+      { title: "Frequency Drift", duration: 323, audioUrl: sh() },
+      { title: "Signal Found", duration: 267, audioUrl: sh() },
+      { title: "Clear Channel", duration: 234, audioUrl: sh() },
+      { title: "Sign Off", duration: 198, audioUrl: sh() },
+      { title: "Static Bloom", duration: 312, audioUrl: sh() },
+      { title: "Resonance", duration: 345, audioUrl: sh() },
     ],
   },
   {
@@ -121,15 +132,15 @@ export const albums: Album[] = [
     color: "bg-sky-500",
     cover: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=400&h=400&fit=crop",
     tracks: [
-      { title: "Haze", duration: 234 },
-      { title: "Moonwash", duration: 267 },
-      { title: "Soft Focus", duration: 198 },
-      { title: "Pale Morning", duration: 289 },
-      { title: "Shimmer", duration: 223 },
-      { title: "Glass", duration: 256 },
-      { title: "Velvet", duration: 278 },
-      { title: "Fading", duration: 312 },
-      { title: "Luminance", duration: 201 },
+      { title: "Haze", duration: 234, audioUrl: sh() },
+      { title: "Moonwash", duration: 267, audioUrl: sh() },
+      { title: "Soft Focus", duration: 198, audioUrl: sh() },
+      { title: "Pale Morning", duration: 289, audioUrl: sh() },
+      { title: "Shimmer", duration: 223, audioUrl: sh() },
+      { title: "Glass", duration: 256, audioUrl: sh() },
+      { title: "Velvet", duration: 278, audioUrl: sh() },
+      { title: "Fading", duration: 312, audioUrl: sh() },
+      { title: "Luminance", duration: 201, audioUrl: sh() },
     ],
   },
   {
@@ -141,17 +152,17 @@ export const albums: Album[] = [
     color: "bg-orange-500",
     cover: "https://images.unsplash.com/photo-1511735111819-9a3f7709049c?w=400&h=400&fit=crop",
     tracks: [
-      { title: "Forge", duration: 234 },
-      { title: "Rust Belt", duration: 267 },
-      { title: "Sweet Sting", duration: 198 },
-      { title: "Anvil", duration: 289 },
-      { title: "Molten", duration: 223 },
-      { title: "Ironworks", duration: 256 },
-      { title: "Honey Trap", duration: 278 },
-      { title: "Burnished", duration: 312 },
-      { title: "Temper", duration: 201 },
-      { title: "Alloy", duration: 245 },
-      { title: "Smelt", duration: 189 },
+      { title: "Forge", duration: 234, audioUrl: sh() },
+      { title: "Rust Belt", duration: 267, audioUrl: sh() },
+      { title: "Sweet Sting", duration: 198, audioUrl: sh() },
+      { title: "Anvil", duration: 289, audioUrl: sh() },
+      { title: "Molten", duration: 223, audioUrl: sh() },
+      { title: "Ironworks", duration: 256, audioUrl: sh() },
+      { title: "Honey Trap", duration: 278, audioUrl: sh() },
+      { title: "Burnished", duration: 312, audioUrl: sh() },
+      { title: "Temper", duration: 201, audioUrl: sh() },
+      { title: "Alloy", duration: 245, audioUrl: sh() },
+      { title: "Smelt", duration: 189, audioUrl: sh() },
     ],
   },
 ];
@@ -240,7 +251,7 @@ export const playlists = [
 
 export function formatTime(seconds: number): string {
   const m = Math.floor(seconds / 60);
-  const s = seconds % 60;
+  const s = Math.floor(seconds % 60);
   return `${m}:${s.toString().padStart(2, "0")}`;
 }
 
@@ -248,4 +259,26 @@ export function formatListeners(n: number): string {
   if (n >= 1000000) return `${(n / 1000000).toFixed(1)}M`;
   if (n >= 1000) return `${(n / 1000).toFixed(0)}K`;
   return n.toString();
+}
+
+// Flatten all tracks with album metadata for the player
+export type QueueTrack = Track & {
+  artist: string;
+  album: string;
+  cover: string;
+  albumId: string;
+  trackIndex: number;
+};
+
+export function getAllTracks(): QueueTrack[] {
+  return albums.flatMap((album) =>
+    album.tracks.map((track, i) => ({
+      ...track,
+      artist: album.artist,
+      album: album.title,
+      cover: album.cover,
+      albumId: album.id,
+      trackIndex: i,
+    }))
+  );
 }

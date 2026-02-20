@@ -16,7 +16,6 @@
       "t": "p"
     }
   ],
-  "0bc6dd45900a7334": "Lecture en cours",
   "0f442932c6435aad": {
     "c": {
       "i": 2,
@@ -26,40 +25,7 @@
     "i": 1,
     "t": "span"
   },
-  "11dbca6f87bd9537": "Une démo de bibliothèque musicale illustrant l’internationalisation avec gt-next. Parcourez des albums, des artistes et des playlists dans plusieurs langues.",
-  "194e1f74157c57af": {
-    "c": [
-      {
-        "c": {
-          "i": 3,
-          "k": "_gt_value_3",
-          "v": "v"
-        },
-        "i": 2,
-        "t": "span"
-      },
-      {
-        "c": {
-          "i": 5,
-          "k": "_gt_value_5",
-          "v": "v"
-        },
-        "i": 4,
-        "t": "span"
-      },
-      {
-        "c": {
-          "i": 7,
-          "k": "_gt_value_7",
-          "v": "v"
-        },
-        "i": 6,
-        "t": "span"
-      }
-    ],
-    "i": 1,
-    "t": "div"
-  },
+  "11dbca6f87bd9537": "Une démo de bibliothèque musicale présentant l’internationalisation avec gt-next. Parcourez des albums, des artistes et des playlists dans plusieurs langues.",
   "1a1adf5e7048e2d9": {
     "c": "Alternatif",
     "i": 1,
@@ -135,7 +101,8 @@
       "t": "span"
     }
   ],
-  "22550b8d98fdc319": "Playlists",
+  "2172bc45e188ef06": "Lecture",
+  "22550b8d98fdc319": "Listes de lecture",
   "245afe844b1a03bd": {
     "c": "Électronique",
     "i": 1,
@@ -147,6 +114,7 @@
     "i": 1,
     "t": "p"
   },
+  "2ca561694eb0463f": "Pause",
   "325c8e011bca19ef": [
     {
       "c": {
@@ -230,7 +198,7 @@
       "t": "div"
     }
   ],
-  "33946a974cf75801": "Retour à la navigation",
+  "33946a974cf75801": "Revenir à la navigation",
   "35ca033c539a3f00": {
     "c": {
       "c": [
@@ -405,7 +373,7 @@
     "i": 1,
     "t": "GenreChip"
   },
-  "6cc3a43639370dff": "Explorer",
+  "6cc3a43639370dff": "Parcourir",
   "6f0e82225465c593": {
     "c": "Artiste",
     "i": 1,
@@ -439,6 +407,7 @@
   ],
   "874e72a57592f9dd": "Lecteur de musique",
   "8862477d0308f16b": "Discographie",
+  "9b2af2e0cb10142d": "Volume",
   "9cf3e97f0195d620": {
     "c": [
       {
@@ -541,7 +510,7 @@
                   "k": "_gt_n_14",
                   "v": "n"
                 },
-                " minutes"
+                " de minutes"
               ],
               "one": {
                 "c": [
@@ -576,6 +545,7 @@
     "i": 1,
     "t": "div"
   },
+  "ab47f58386924b4f": "Précédent",
   "c02dcea23906b18c": {
     "c": "Indie Folk",
     "i": 1,
@@ -587,6 +557,7 @@
     "i": 1,
     "t": "GenreChip"
   },
+  "cb35cd9b294c3d02": "Suivant",
   "cc21632fab2ecb66": {
     "c": {
       "c": [
@@ -782,7 +753,7 @@
                       "k": "_gt_n_12",
                       "v": "n"
                     },
-                    " titres"
+                    " pistes"
                   ],
                   "d": {
                     "b": {
@@ -834,105 +805,6 @@
     },
     "i": 1,
     "t": "Link"
-  },
-  "e0f5d5d849b9fb1b": {
-    "c": {
-      "c": [
-        {
-          "c": [
-            {
-              "i": 4,
-              "t": "img"
-            },
-            {
-              "c": [
-                {
-                  "c": {
-                    "i": 7,
-                    "k": "_gt_value_7",
-                    "v": "v"
-                  },
-                  "i": 6,
-                  "t": "p"
-                },
-                {
-                  "c": [
-                    {
-                      "i": 9,
-                      "k": "_gt_value_9",
-                      "v": "v"
-                    },
-                    " — ",
-                    {
-                      "i": 10,
-                      "k": "_gt_value_10",
-                      "v": "v"
-                    }
-                  ],
-                  "i": 8,
-                  "t": "p"
-                }
-              ],
-              "i": 5,
-              "t": "div"
-            }
-          ],
-          "i": 3,
-          "t": "div"
-        },
-        {
-          "c": [
-            {
-              "c": [
-                {
-                  "c": {
-                    "i": 14,
-                    "k": "_gt_value_14",
-                    "v": "v"
-                  },
-                  "i": 13,
-                  "t": "span"
-                },
-                {
-                  "c": {
-                    "i": 16,
-                    "t": "div"
-                  },
-                  "i": 15,
-                  "t": "div"
-                },
-                {
-                  "c": {
-                    "i": 18,
-                    "k": "_gt_value_18",
-                    "v": "v"
-                  },
-                  "i": 17,
-                  "t": "span"
-                }
-              ],
-              "i": 12,
-              "t": "div"
-            },
-            {
-              "c": {
-                "i": 20,
-                "k": "_gt_value_20",
-                "v": "v"
-              },
-              "i": 19,
-              "t": "span"
-            }
-          ],
-          "i": 11,
-          "t": "div"
-        }
-      ],
-      "i": 2,
-      "t": "div"
-    },
-    "i": 1,
-    "t": "div"
   },
   "e507c539aaaba76b": {
     "c": "Playlist",
@@ -1026,5 +898,6 @@
     "i": 1,
     "t": "Link"
   },
+  "ef89316ac55a5858": "Aléatoire",
   "ffacf804f511e075": "Lecteur de musique | Traduction générale"
 }

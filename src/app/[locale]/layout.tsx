@@ -3,7 +3,8 @@ import { Geist } from "next/font/google";
 import { GTProvider } from "gt-next";
 import { getGT } from "gt-next/server";
 import Header from "@/components/Header";
-import NowPlaying from "@/components/NowPlaying";
+import PlayerBar from "@/components/PlayerBar";
+import { PlayerProvider } from "@/context/PlayerContext";
 import "../globals.css";
 
 const geistSans = Geist({
@@ -64,9 +65,11 @@ export default async function RootLayout({
         className={`${geistSans.variable} font-[family-name:var(--font-geist-sans)] bg-neutral-950 text-neutral-100 min-h-screen antialiased`}
       >
         <GTProvider>
-          <Header />
-          <div className="pb-20">{children}</div>
-          <NowPlaying />
+          <PlayerProvider>
+            <Header />
+            <div className="pb-20">{children}</div>
+            <PlayerBar />
+          </PlayerProvider>
         </GTProvider>
       </body>
     </html>

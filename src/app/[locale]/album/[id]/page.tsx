@@ -2,7 +2,8 @@ import { T, Var, Plural, DateTime, Num } from "gt-next";
 import { getGT } from "gt-next/server";
 import Link from "next/link";
 import { notFound } from "next/navigation";
-import { albums, formatTime } from "@/data";
+import { albums, formatTime, type QueueTrack } from "@/data";
+import AlbumTrackList from "@/components/AlbumTrackList";
 
 export default async function AlbumPage({
   params,
@@ -16,6 +17,16 @@ export default async function AlbumPage({
   const gt = await getGT();
   const totalDuration = album.tracks.reduce((sum, t) => sum + t.duration, 0);
   const totalMinutes = Math.floor(totalDuration / 60);
+
+  // Build queue for this album
+  const queue: QueueTrack[] = album.tracks.map((track, i) => ({
+    ...track,
+    artist: album.artist,
+    album: album.title,
+    cover: album.cover,
+    albumId: album.id,
+    trackIndex: i,
+  }));
 
   return (
     <main className="max-w-6xl mx-auto px-6 py-10">
@@ -81,21 +92,7 @@ export default async function AlbumPage({
           <span>{gt("Title")}</span>
           <span>{gt("Duration")}</span>
         </div>
-        {album.tracks.map((track, i) => (
-          <T key={i}>
-            <div className="grid grid-cols-[auto_1fr_auto] gap-4 px-4 py-3 hover:bg-neutral-900/50 transition-colors group items-center">
-              <span className="text-sm text-neutral-500 tabular-nums w-6 text-right">
-                <Var>{i + 1}</Var>
-              </span>
-              <span className="text-sm text-neutral-200 group-hover:text-neutral-100 truncate">
-                <Var>{track.title}</Var>
-              </span>
-              <span className="text-sm text-neutral-500 tabular-nums">
-                <Var>{formatTime(track.duration)}</Var>
-              </span>
-            </div>
-          </T>
-        ))}
+        <AlbumTrackList tracks={queue} />
       </div>
 
       <div className="mt-8">
