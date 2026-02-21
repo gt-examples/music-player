@@ -16,6 +16,7 @@
       "t": "p"
     }
   ],
+  "0c730b7f189776b6": "Voir sur GitHub",
   "0f442932c6435aad": {
     "c": {
       "i": 2,
@@ -25,13 +26,13 @@
     "i": 1,
     "t": "span"
   },
-  "11dbca6f87bd9537": "Une démo de bibliothèque musicale présentant l’internationalisation avec gt-next. Parcourez des albums, des artistes et des playlists dans plusieurs langues.",
+  "11dbca6f87bd9537": "Démo de bibliothèque musicale illustrant l’internationalisation avec gt-next. Parcourez des albums, artistes et playlists dans plusieurs langues.",
   "1a1adf5e7048e2d9": {
     "c": "Alternatif",
     "i": 1,
     "t": "GenreChip"
   },
-  "1dfd94f8e485c8a0": "Retour aux artistes",
+  "1dfd94f8e485c8a0": "Revenir aux artistes",
   "210965807656d892": [
     {
       "c": {
@@ -101,8 +102,8 @@
       "t": "span"
     }
   ],
-  "2172bc45e188ef06": "Lecture",
-  "22550b8d98fdc319": "Listes de lecture",
+  "2172bc45e188ef06": "Lire",
+  "22550b8d98fdc319": "Playlists",
   "245afe844b1a03bd": {
     "c": "Électronique",
     "i": 1,
@@ -318,6 +319,56 @@
     }
   ],
   "4a4d29430a1328c0": "Artistes",
+  "4f5abb7d26fcfbe7": {
+    "c": [
+      {
+        "c": [
+          "Construit avec ",
+          {
+            "c": "General Translation",
+            "i": 3,
+            "t": "a"
+          },
+          ", ",
+          {
+            "c": "Next.js",
+            "i": 4,
+            "t": "a"
+          },
+          " et ",
+          {
+            "c": "Tailwind CSS",
+            "i": 5,
+            "t": "a"
+          },
+          "."
+        ],
+        "i": 2,
+        "t": "p"
+      },
+      {
+        "c": [
+          "Extraits audio de ",
+          {
+            "c": "SoundHelix",
+            "i": 7,
+            "t": "a"
+          },
+          ". Photos de ",
+          {
+            "c": "Unsplash",
+            "i": 8,
+            "t": "a"
+          },
+          "."
+        ],
+        "i": 6,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "footer"
+  },
   "515def12cf2b5677": {
     "c": [
       {
@@ -361,7 +412,7 @@
     "t": "div"
   },
   "569571a2b12ca3fe": "Bibliothèque",
-  "56f1e9695143318b": "Retour aux playlists",
+  "56f1e9695143318b": "Retour aux listes de lecture",
   "5708e7ad29c508d7": {
     "c": "Jazz",
     "i": 1,
@@ -408,6 +459,19 @@
   "874e72a57592f9dd": "Lecteur de musique",
   "8862477d0308f16b": "Discographie",
   "9b2af2e0cb10142d": "Volume",
+  "9bcf664cfd0ffd78": {
+    "c": [
+      "Ceci est une application de démonstration construite avec ",
+      {
+        "c": "General Translation",
+        "i": 2,
+        "t": "a"
+      },
+      " pour illustrer l'internationalisation. Pas un vrai produit."
+    ],
+    "i": 1,
+    "t": "div"
+  },
   "9cf3e97f0195d620": {
     "c": [
       {
@@ -510,7 +574,7 @@
                   "k": "_gt_n_14",
                   "v": "n"
                 },
-                " de minutes"
+                " minutes"
               ],
               "one": {
                 "c": [

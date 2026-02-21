@@ -5,7 +5,7 @@ import { formatTime } from "@/data";
 import { useGT } from "gt-next/client";
 
 export default function PlayerBar() {
-  const t = useGT();
+  const gt = useGT();
   const {
     currentTrack,
     isPlaying,
@@ -52,8 +52,8 @@ export default function PlayerBar() {
             <button
               onClick={toggleShuffle}
               className={`p-1 transition-colors ${shuffle ? "text-violet-400" : "text-neutral-500 hover:text-neutral-300"}`}
-              title={t("Shuffle")}
-              aria-label={t("Shuffle")}
+              title={gt("Shuffle")}
+              aria-label={gt("Shuffle")}
             >
               <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                 <polyline points="16 3 21 3 21 8" /><line x1="4" y1="20" x2="21" y2="3" />
@@ -66,8 +66,8 @@ export default function PlayerBar() {
             <button
               onClick={previous}
               className="p-1 text-neutral-400 hover:text-neutral-100 transition-colors"
-              title={t("Previous")}
-              aria-label={t("Previous")}
+              title={gt("Previous")}
+              aria-label={gt("Previous")}
             >
               <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M6 6h2v12H6zm3.5 6l8.5 6V6z" />
@@ -78,8 +78,8 @@ export default function PlayerBar() {
             <button
               onClick={togglePlay}
               className="w-8 h-8 flex items-center justify-center rounded-full bg-neutral-100 text-neutral-900 hover:bg-white transition-colors"
-              title={isPlaying ? t("Pause") : t("Play")}
-              aria-label={isPlaying ? t("Pause") : t("Play")}
+              title={isPlaying ? gt("Pause") : gt("Play")}
+              aria-label={isPlaying ? gt("Pause") : gt("Play")}
             >
               {isPlaying ? (
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
@@ -96,8 +96,8 @@ export default function PlayerBar() {
             <button
               onClick={next}
               className="p-1 text-neutral-400 hover:text-neutral-100 transition-colors"
-              title={t("Skip")}
-              aria-label={t("Skip")}
+              title={gt("Skip")}
+              aria-label={gt("Skip")}
             >
               <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor">
                 <path d="M6 18l8.5-6L6 6v12zM16 6v12h2V6h-2z" />
@@ -136,8 +136,8 @@ export default function PlayerBar() {
           <button
             onClick={() => setVolume(volume > 0 ? 0 : 0.7)}
             className="p-1 text-neutral-400 hover:text-neutral-100 transition-colors"
-            title={t("Volume")}
-            aria-label={t("Volume")}
+            title={gt("Volume")}
+            aria-label={gt("Volume")}
           >
             <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
               {volume === 0 ? (

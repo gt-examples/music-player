@@ -16,6 +16,7 @@
       "t": "p"
     }
   ],
+  "0c730b7f189776b6": "Ver en GitHub",
   "0f442932c6435aad": {
     "c": {
       "i": 2,
@@ -25,13 +26,13 @@
     "i": 1,
     "t": "span"
   },
-  "11dbca6f87bd9537": "Demostración de biblioteca de música que muestra la internacionalización con gt-next. Explora álbumes, artistas y listas de reproducción en varios idiomas.",
+  "11dbca6f87bd9537": "Demostración de una biblioteca de música que muestra internacionalización con gt-next. Explora álbumes, artistas y listas de reproducción en distintos idiomas.",
   "1a1adf5e7048e2d9": {
     "c": "Alternativo",
     "i": 1,
     "t": "GenreChip"
   },
-  "1dfd94f8e485c8a0": "Volver a artistas",
+  "1dfd94f8e485c8a0": "Volver a Artistas",
   "210965807656d892": [
     {
       "c": {
@@ -198,7 +199,7 @@
       "t": "div"
     }
   ],
-  "33946a974cf75801": "Volver a explorar",
+  "33946a974cf75801": "Seguir explorando",
   "35ca033c539a3f00": {
     "c": {
       "c": [
@@ -318,6 +319,56 @@
     }
   ],
   "4a4d29430a1328c0": "Artistas",
+  "4f5abb7d26fcfbe7": {
+    "c": [
+      {
+        "c": [
+          "Creado con ",
+          {
+            "c": "General Translation",
+            "i": 3,
+            "t": "a"
+          },
+          ", ",
+          {
+            "c": "Next.js",
+            "i": 4,
+            "t": "a"
+          },
+          " y ",
+          {
+            "c": "Tailwind CSS",
+            "i": 5,
+            "t": "a"
+          },
+          "."
+        ],
+        "i": 2,
+        "t": "p"
+      },
+      {
+        "c": [
+          "Muestras de audio de ",
+          {
+            "c": "SoundHelix",
+            "i": 7,
+            "t": "a"
+          },
+          ". Fotos de ",
+          {
+            "c": "Unsplash",
+            "i": 8,
+            "t": "a"
+          },
+          "."
+        ],
+        "i": 6,
+        "t": "p"
+      }
+    ],
+    "i": 1,
+    "t": "footer"
+  },
   "515def12cf2b5677": {
     "c": [
       {
@@ -408,6 +459,19 @@
   "874e72a57592f9dd": "Reproductor de música",
   "8862477d0308f16b": "Discografía",
   "9b2af2e0cb10142d": "Volumen",
+  "9bcf664cfd0ffd78": {
+    "c": [
+      "Esta es una aplicación de demostración creada con ",
+      {
+        "c": "General Translation",
+        "i": 2,
+        "t": "a"
+      },
+      " para mostrar la internacionalización. No es un producto real."
+    ],
+    "i": 1,
+    "t": "div"
+  },
   "9cf3e97f0195d620": {
     "c": [
       {
@@ -456,7 +520,7 @@
                   "k": "_gt_n_10",
                   "v": "n"
                 },
-                " pistas"
+                " de pistas"
               ],
               "one": {
                 "c": [
@@ -899,5 +963,5 @@
     "t": "Link"
   },
   "ef89316ac55a5858": "Aleatorio",
-  "ffacf804f511e075": "Reproductor de música | Traducción general"
+  "ffacf804f511e075": "Reproductor de música | Traducción básica"
 }

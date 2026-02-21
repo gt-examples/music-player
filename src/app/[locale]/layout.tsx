@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Geist } from "next/font/google";
+import { T } from "gt-next";
 import { GTProvider } from "gt-next";
 import { getGT } from "gt-next/server";
 import Header from "@/components/Header";
@@ -66,8 +67,38 @@ export default async function RootLayout({
       >
         <GTProvider>
           <PlayerProvider>
+            <T>
+              <div className="bg-neutral-900 border-b border-neutral-800 text-center py-2 px-4 text-xs text-neutral-400">
+                This is a demo app built with{" "}
+                <a
+                  href="https://generaltranslation.com"
+                  className="underline hover:text-neutral-200"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  General Translation
+                </a>{" "}
+                to showcase internationalization. Not a real product.
+              </div>
+            </T>
             <Header />
-            <div className="pb-20">{children}</div>
+            <div className="pb-32">{children}</div>
+            <T>
+              <footer className="border-t border-neutral-800 py-8 px-6 text-center text-xs text-neutral-500">
+                <p className="mb-2">
+                  Built with{" "}
+                  <a href="https://generaltranslation.com" className="underline hover:text-neutral-300" target="_blank" rel="noopener noreferrer">General Translation</a>,{" "}
+                  <a href="https://nextjs.org" className="underline hover:text-neutral-300" target="_blank" rel="noopener noreferrer">Next.js</a>, and{" "}
+                  <a href="https://tailwindcss.com" className="underline hover:text-neutral-300" target="_blank" rel="noopener noreferrer">Tailwind CSS</a>.
+                </p>
+                <p>
+                  Audio samples from{" "}
+                  <a href="https://www.soundhelix.com" className="underline hover:text-neutral-300" target="_blank" rel="noopener noreferrer">SoundHelix</a>.
+                  Photos from{" "}
+                  <a href="https://unsplash.com" className="underline hover:text-neutral-300" target="_blank" rel="noopener noreferrer">Unsplash</a>.
+                </p>
+              </footer>
+            </T>
             <PlayerBar />
           </PlayerProvider>
         </GTProvider>
